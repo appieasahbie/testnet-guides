@@ -1,5 +1,5 @@
 #!/bin/bash
-source <(curl -s https://raw.githubusercontent.com/itrocket-team/testnet_guides/main/utils/common.sh)
+source <(curl -s https://raw.githubusercontent.com/appieasahbie/testnet-guides/main/utils/common.sh)
 
 while getopts u:b:v:n:o:p:h:i:r: flag; do
   case "${flag}" in
