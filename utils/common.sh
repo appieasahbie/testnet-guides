@@ -1,4 +1,4 @@
-GREEN="\e[1m\e[1;32m" # green color
+GREEN="\e[1m\e[1;32m" # yellow color
 RED="\e[1m\e[1;31m" # red color
 BLUE='\033[0;34m'   # blue color
 NC="\e[0m"          # no color
@@ -11,8 +11,8 @@ function printLine {
   echo "------------------------------------------------------------------------------------"
 }
 
-function printGreen {
-  echo -e "${GREEN}${1}${NC}"
+function printYellow {
+  echo -e "${YELLOW}${1}${NC}"
 }
 
 function printRed {
